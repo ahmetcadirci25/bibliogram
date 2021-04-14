@@ -6,5 +6,5 @@
 */
 
 module.exports = {
-	website_origin: "https://bibliogram25.herokuapp.com",
+	website_origin: "https://bib25.herokuapp.com",
 }
