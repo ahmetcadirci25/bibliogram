@@ -6,4 +6,5 @@
 */
 
 module.exports = {
+	website_origin: "https://ibliogram25.herokuapp.com",
 }
