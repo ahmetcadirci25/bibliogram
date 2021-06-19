@@ -8,7 +8,7 @@ const rssImageTemplate = compile(`
 img(src=constants.website_origin+entry.getDisplayUrlP() alt=entry.getAlt() width=entry.data.dimensions.width height=entry.data.dimensions.height)
 `)
 const rssVideoTemplate = compile(`
-video(src=constants.website_origin+entry.getVideoUrlP() controls autoplay preload="auto" width=entry.data.dimensions.width height=entry.data.dimensions.height)
+video(src=constants.website_origin+entry.getVideoUrlP() controls autoplay width=entry.data.dimensions.width height=entry.data.dimensions.height)
 `)
 
 class TimelineChild extends TimelineBaseMethods {
